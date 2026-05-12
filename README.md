@@ -100,9 +100,10 @@ https://github.com/user-attachments/assets/53fe12b7-3b00-4020-9889-10a7853653b7
 - **Single Object** → Direct pick operation
 - **Cluster Object** → MoveC separation motion before picking
 
----
+---    
+     
 
-<img width="1316" height="590" alt="사분면 나누기" src="https://github.com/user-attachments/assets/7cdde458-5fd9-49be-93b7-9615b1224139" />
+<img width="1316" height="590" alt="사분면 나누기" src="https://github.com/user-attachments/assets/7cdde458-5fd9-49be-93b7-9615b1224139" />   
 
 HSV -> find the largest contour to find the place for process -> yellow mask & binary image -> Morphology -> contour each object -> get Complexity, Solidity, Area -> recognize cluster over specific threshold
 
@@ -115,6 +116,8 @@ Object orientation is estimated using PCA (Principal Component Analysis).
 - Gripper alignment
 - Front/back bottle orientation detection
 - Stable grasping performance
+
+Point Cloud -> Pre-processing -> Nomralize -> Covariance Matrix -> Eigenvecotr -> Extract Angle
 
 ---
 
