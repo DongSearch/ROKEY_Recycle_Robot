@@ -78,6 +78,11 @@ it measure how much amount of water they have in the bottle checking refraction
 - ratio between width and height
 
 
+binary image -> morphology -> crop -> contour -> thick,length,ratio threshold -> check the number of contour detected -> measure water amount
+- <img width="592" height="173" alt="image" src="https://github.com/user-attachments/assets/a5687602-24d5-4531-9094-60a7cc3f86eb" />
+
+
+
 https://github.com/user-attachments/assets/0a1b394d-4332-4485-9dda-f3532cfd8c8c
 
 
